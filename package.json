@@ -1,0 +1,22 @@
+{
+  "name": "preentregafinal1",
+  "version": "1.0.0",
+  "description": "API carts and products",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --watch src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.2",
+    "socket.io": "^4.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
